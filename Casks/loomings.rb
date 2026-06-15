@@ -1,6 +1,6 @@
 cask "loomings" do
-  version "1.0.0"
-  sha256 "d9cbd761d0fa99edd40e1d51445315efc73c095a6e3aa026f20aabb961c180c1"
+  version "1.0.3"
+  sha256 "f1e6e95c37f095d88c469ef096e997a56fc349e8a7a18d810138ae0b86b60398"
 
   url "https://github.com/tiagojct/loomings/releases/download/v#{version}/Loomings_#{version}_aarch64.dmg",
       verified: "github.com/tiagojct/loomings/"
