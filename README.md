@@ -1,6 +1,6 @@
 # homebrew-loomings
 
-Homebrew tap for [Loomings](https://tiagojct.eu/loomings) — a markdown writing app.
+Homebrew tap for [Loomings](https://loomings.tiagojct.eu) — a markdown writing app.
 
 ## Install
 
@@ -43,7 +43,7 @@ brew untap tiagojct/loomings
 
 ## Notes
 
-- **Apple Silicon only** at the moment. Intel macOS builds are queued in CI; the cask will be updated once they land.
+- **Apple Silicon only.** No Intel macOS build is published (the free-tier CI runner queue was too unreliable to ship it); Intel Mac users [build from source](https://github.com/tiagojct/loomings#build-from-source).
 - The DMG is **unsigned**. Use `--no-quarantine` at install time, or strip the `com.apple.quarantine` xattr afterwards.
 - Minimum macOS version: 11.0 (Big Sur).
 

@@ -1,12 +1,12 @@
 cask "loomings" do
-  version "1.0.3"
-  sha256 "f1e6e95c37f095d88c469ef096e997a56fc349e8a7a18d810138ae0b86b60398"
+  version "1.2.0"
+  sha256 "1b02d72a2880b710ad611032fc7fff5ab478804edee7f3ef1155e9e42b8e67ea"
 
   url "https://github.com/tiagojct/loomings/releases/download/v#{version}/Loomings_#{version}_aarch64.dmg",
       verified: "github.com/tiagojct/loomings/"
   name "Loomings"
   desc "Minimalist markdown writing app"
-  homepage "https://tiagojct.eu/loomings"
+  homepage "https://loomings.tiagojct.eu/"
 
   livecheck do
     url :url
